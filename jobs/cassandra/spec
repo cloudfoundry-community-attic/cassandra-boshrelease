@@ -9,3 +9,7 @@ templates:
   data/properties.sh.erb: data/properties.sh
   helpers/ctl_setup.sh: helpers/ctl_setup.sh
   helpers/ctl_utils.sh: helpers/ctl_utils.sh
+  config/cassandra.yaml.erb: config/cassandra.yaml
+  config/cassandra-topology.properties: config/cassandra-topology.properties
+  config/log4j-server.properties: config/log4j-server.properties
+  config/log4j-tools.properties: config/log4j-tools.properties
