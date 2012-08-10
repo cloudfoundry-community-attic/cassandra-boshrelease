@@ -1,0 +1,28 @@
+--- 
+packages: 
+- name: cassandra
+  version: 1
+  sha1: 4a3266930d06c66a1bd3181ba2297703c2bd4fc6
+  dependencies: 
+  - java7
+- name: java7
+  version: 1
+  sha1: 6b97e27df60d061974e8688f555a7bf8d3d174ff
+  dependencies: []
+
+- name: java7-jna
+  version: 1
+  sha1: 2d074692e38bd77e73d526e583c05d3663f83137
+  dependencies: 
+  - java7
+- name: java7-mx4j
+  version: 1
+  sha1: 3029ffe30fb313198256f9551825c8399d47c4b5
+  dependencies: 
+  - java7
+jobs: 
+- name: cassandra
+  version: 1
+  sha1: de88028c0bf87293bc154fb8801b8df9db46a3a5
+name: cassandra
+version: 1
