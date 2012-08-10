@@ -1,1 +1,9 @@
---- {}
+---
+java/jre-7u4-linux-x64.tar.gz:
+  object_id: eba40ace-7876-4695-b171-7db14500cc2d
+  sha: 1108d1744baa73bf6caa2adf965d0f489ea1ef60
+  size: 32771159
+cassandra/apache-cassandra-1.0.11-bin.tar.gz:
+  object_id: 5fed5193-67af-49d6-b43c-892909bbf80c
+  sha: c8f1bf1e5b0ec67364b101038d36053979d5fc16
+  size: 11284899
