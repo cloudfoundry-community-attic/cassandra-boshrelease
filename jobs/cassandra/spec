@@ -4,6 +4,7 @@ packages:
 - cassandra
 - java7
 - java7-jna
+- java7-mx4j
 templates:
   bin/cassandra_ctl: bin/cassandra_ctl
   bin/monit_debugger: bin/monit_debugger

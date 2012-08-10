@@ -1,0 +1,6 @@
+---
+name: java7-mx4j
+dependencies:
+- java7
+files:
+- java7-mx4j/mx4j-3.0.2.zip
