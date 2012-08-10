@@ -15,3 +15,7 @@ java7-jna/platform.jar:
   object_id: abfc437c-1ee9-422d-afa1-201db1627c4a
   sha: b6c82d0bd03d224029ccf8fd52c4b20800de88d4
   size: 916366
+java7-mx4j/mx4j-3.0.2.zip:
+  object_id: 74597d1d-f7b8-465c-9fb6-9b6c89d35dfd
+  sha: d63ba68ead8376e40e6a4eaa680cba68d6bb5f8a
+  size: 6106086
