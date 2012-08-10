@@ -13,3 +13,4 @@ templates:
   config/cassandra-topology.properties: config/cassandra-topology.properties
   config/log4j-server.properties: config/log4j-server.properties
   config/log4j-tools.properties: config/log4j-tools.properties
+  helpers/cassandra.in.sh: helpers/cassandra.in.sh
