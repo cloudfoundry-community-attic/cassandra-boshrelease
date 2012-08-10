@@ -45,7 +45,7 @@ done
 
 RUN_DIR=/var/vcap/sys/run/$JOB_NAME
 LOG_DIR=/var/vcap/sys/log/$JOB_NAME
-TMPDIR=/var/vcap/sys/tmp/$JOB_NAME
+TMP_DIR=/var/vcap/sys/tmp/$JOB_NAME
 STORE_DIR=/var/vcap/store/$JOB_NAME
 for dir in $RUN_DIR $LOG_DIR $TMP_DIR $STORE_DIR
 do
@@ -61,6 +61,11 @@ export LIBRARY_PATH=/var/vcap/packages/mysqlclient/lib/mysql:/var/vcap/packages/
 if [[ -d ${WEBAPP_DIR:-/xxxx} ]]
 then
   export PYTHONPATH=$WEBAPP_DIR/vendor/lib/python
+fi
+
+if [[ -d /var/vcap/packages/java7 ]]
+then
+  export JAVA_HOME="/var/vcap/packages/java7"
 fi
 
 PIDFILE=$RUN_DIR/$JOB_NAME.pid
