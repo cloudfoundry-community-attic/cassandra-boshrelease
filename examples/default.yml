@@ -1,0 +1,4 @@
+---
+properties:
+  cassandra:
+    cluster_name: Example
