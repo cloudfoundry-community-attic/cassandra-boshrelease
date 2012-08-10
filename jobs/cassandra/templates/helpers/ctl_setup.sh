@@ -69,6 +69,13 @@ then
   export JAVA_HOME="/var/vcap/packages/java7"
 fi
 
+# setup CLASSPATH for all jars/ folders within packages
+export CLASSPATH=${CLASSPATH:-''} # default to empty
+for java_jar in $(ls -d /var/vcap/packages/*/jars/*.jar)
+do
+  export CLASSPATH=${java_jar}:$CLASSPATH
+done
+
 PIDFILE=$RUN_DIR/$JOB_NAME.pid
 
 echo '$PATH' $PATH

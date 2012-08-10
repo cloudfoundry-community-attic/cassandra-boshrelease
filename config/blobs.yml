@@ -7,3 +7,11 @@ cassandra/apache-cassandra-1.0.11-bin.tar.gz:
   object_id: 5fed5193-67af-49d6-b43c-892909bbf80c
   sha: c8f1bf1e5b0ec67364b101038d36053979d5fc16
   size: 11284899
+java7-jna/jna.jar:
+  object_id: 304e7707-b5d6-4c90-b3a5-c838c3eef2c8
+  sha: 2ab81ecb3b420da2c3ecce1ee36bb9face6876e8
+  size: 1369421
+java7-jna/platform.jar:
+  object_id: abfc437c-1ee9-422d-afa1-201db1627c4a
+  sha: b6c82d0bd03d224029ccf8fd52c4b20800de88d4
+  size: 916366

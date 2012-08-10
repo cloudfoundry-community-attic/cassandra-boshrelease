@@ -18,7 +18,8 @@ cassandra_bin=$cassandra_bin:$CASSANDRA_HOME/build/classes/thrift
 #JAVA_HOME=/usr/local/jdk6
 
 # The java classpath (required)
-export CLASSPATH=$CASSANDRA_CONF:$cassandra_bin
+export CLASSPATH=${CLASSPATH:-''} # default to empty
+export CLASSPATH=$CASSANDRA_CONF:$cassandra_bin:$CLASSPATH
 
 for jar in $CASSANDRA_HOME/lib/*.jar; do
     export CLASSPATH=$CLASSPATH:$jar

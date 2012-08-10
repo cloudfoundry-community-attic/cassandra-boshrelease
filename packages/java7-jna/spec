@@ -1,0 +1,7 @@
+---
+name: java7-jna
+dependencies:
+- java7
+files:
+- java7-jna/jna.jar
+- java7-jna/platform.jar
