@@ -2,6 +2,20 @@
 
 This project is a BOSH release for `cassandra-boshrelease`.
 
+## Release to your BOSH
+
+To create and upload this release to your BOSH:
+
+```
+bosh target BOSH_URL
+git clone git@github.com:engineyard/cassandra-boshrelease.git
+cd cassandra-boshrelease
+bosh create release
+# blobs are automatically downloaded
+# name it 'cassandra-dev' or something unique to your bosh
+bosh upload release
+```
+
 ## Development with Vagrant
 
 This project includes development support within Vagrant using [bosh-solo](http://drnic.github.com/bosh-solo)
